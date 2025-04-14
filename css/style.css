@@ -1,9 +1,8 @@
-/* General Body Styling */
+
 body {
     background: linear-gradient(135deg, #e0f7fa, #ffffff);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
-  /* Particle Background */
+ 
 #particles-js {
     position: fixed;
     width: 100%;
@@ -14,15 +13,12 @@ body {
     left: 0;
   }
   
-  
-  /* Heading Styling */
   h1 {
     font-weight: bold;
     color: #00796b;
     animation: fadeInDown 1s ease-in-out;
   }
   
-  /* Select Box Styling */
   #country {
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
   }
@@ -31,8 +27,7 @@ body {
     border-color: #26a69a;
     box-shadow: 0 0 0 0.25rem rgba(38, 166, 154, 0.25);
   }
-  
-  /* Stats Card Styling */
+
   #stats {
     background-color: #ffffff;
     border-left: 5px solid #26a69a;
@@ -40,7 +35,6 @@ body {
     animation: fadeInUp 0.8s ease;
   }
   
-  /* Country Name Header */
   #countryName {
     color: #004d40;
     font-size: 1.5rem;
@@ -48,13 +42,11 @@ body {
     margin-bottom: 15px;
   }
   
-  /* Text Details */
   #stats p {
     font-size: 1.1rem;
     color: #333;
   }
-  
-  /* Animations */
+
   @keyframes fadeInDown {
     from {
       opacity: 0;
@@ -76,8 +68,7 @@ body {
       transform: translateY(0);
     }
   }
-  
-  /* Optional: Add hover effect for interactivity */
+
   #stats:hover {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s ease-in-out;
